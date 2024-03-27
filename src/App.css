@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* App container */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #008E97;
+}
+/* MainContent styles */
+.main-content {
+    background-image: url('/public/pexels-photo-531880.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Ensure text color contrasts with background */
+    flex-grow: 1; /* Fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content h1 {
+    font-size: 56px;
+    color: white;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; /* Push footer to bottom of viewport */
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.message {
+    font-size: 16px;
+}
