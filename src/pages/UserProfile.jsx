@@ -22,7 +22,7 @@ const UserProfile = () => {
           <div className="avatar__wrapper">
             <div className="profile__avatar">
               <img src={avatar} alt="" />
-            </div>
+            </div> 
             {/* {form to update avatar} */}
             <form className="avatar__form">
               <input type="file" name='avatar' id='avatar' onChange={e => setAvatar(e.target.files[0])} accept='png, jpg, jpeg'/>
