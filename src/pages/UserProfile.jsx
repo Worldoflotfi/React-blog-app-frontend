@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Avatar from '../images/avatar15.jpg'
-import {FaCheck, FaEdit} from 'react-icons/fa'
+import {FaEdit} from 'react-icons/fa'
+// import FaCheck from 'react-icons/fa'
 import { useState } from 'react'
 // import e from 'express'
 
